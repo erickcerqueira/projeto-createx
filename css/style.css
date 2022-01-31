@@ -125,7 +125,6 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding: 50px;
 }
 
 .number__one {
@@ -135,7 +134,7 @@
 
 .box__why__createx {
     display: flex;
-    margin-top: 80px;
+    margin-top: 40px;
     justify-content: space-around;
     align-content: center;
 }
@@ -450,4 +449,196 @@
 
 .teste__1 {
     padding-top: 30px;
+}
+
+.certifcado-fixed {
+    position: relative;
+    top: 50px;
+    width: 582px;
+    height: 350px;
+}
+
+.tag__blog__card {
+    position: relative;
+    top: 33px;
+    left: 10px;
+}
+
+.tag__title__green, .tag__title__purple, .tag__title__pink, .tag__title__orange {
+    position: relative;
+    bottom: 40px;
+}
+
+.slick-next, .slick-arrow {
+    background: #03CEA4;
+    color: #1E212C;
+}
+
+.slide-slick {
+    padding-top: 60px;
+}
+
+.left_arrow {
+    background: black;
+}
+
+.botao-login-menu {
+    padding-left: 20px;
+}
+
+
+.numbers__of__informations {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 440px) {
+
+    .tag__title__green, .tag__title__purple, .tag__title__pink, .tag__title__orange {
+        position: relative;
+        bottom: 25px;
+    }
+
+    .botao-login-menu {
+        padding-left: 0px;
+    }
+
+    .numbers__of__informations {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .number__one {
+        font-size: 25px;
+    }
+
+    .certifcado-fixed {
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .slide-slick {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .conteudo__cards {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .box__img {
+        max-width: 100%;
+        padding-top: 0px;
+    }
+
+    .buttons__benefits {
+        display: none;
+    }
+
+    .box__cards__events {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-right: 0px;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+    .name__date__text {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .date__name {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .h3__text__expertise {
+        font-size: 35px;
+    }
+
+    .box__do__you__more {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box__to__learn {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .btn-why-createx-div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .img__team__slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text__slide {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+
+    .site__map, .courses__footer, .contactus__footer, .newsletter__footer, .btn__go__top {
+        display: none;
+
+    }
+
+    .bg__color__main__3 {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+    }
+
+    .text__benefits, .box__only__bennefits {
+        text-align: center;
+    }
+
+    .box__only__bennefits {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .conteudo__pequeno__blog {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .title__blog {
+        font-size: 12px;
+    }
+
+    .box__to__learn {
+        padding-top: 40px;
+    }
+
+    .botao-menu-get-consultation {
+        display: none;
+    }
+
 }
